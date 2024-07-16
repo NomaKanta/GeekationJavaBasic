@@ -11,22 +11,17 @@ public class ComparisonLogicalOperators {
 
 		boolean isSunny = true;
 		boolean isWarm = true;
-		if (isSunny && isWarm) {
-			System.out.println("true");
-		} else {
-			System.out.println("false");
-		}
+		System.out.println(isSunny && isWarm);
+
 
 		int x = 5;
 		int y = 10;
-		if (x >= 0 && y % 2 == 0) {
-			System.out.println("true");
-		}
+		boolean andResultA = (x >= 0 && y % 2 == 0);
+		System.out.println(andResultA);
 
 		boolean hasPermission = false;
-		if (!hasPermission) {
-			System.out.println("true");
-		}
+			System.out.println(!hasPermission);
+		
 
 	}
 
