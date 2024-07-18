@@ -39,7 +39,7 @@ public class MethodPractice {
 		return a / b;
 	}
 
-	//
+	// 計算結果をコンソールに出力する
 	public static void printResult(int result) {
         System.out.println("計算結果は" + result + "です。");
     }
